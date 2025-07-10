@@ -1,0 +1,146 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: #f8f8f8;
+    padding: 20px;
+    margin: 0;
+}
+.container {
+    max-width: 1000px;
+    background: white;
+    margin: auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.back-btn {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 16px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.product-header {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.product-image {
+    flex: 1;
+    min-width: 250px;
+}
+.product-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+.product-info {
+    flex: 2;
+}
+.product-title {
+    font-size: 28px;
+    margin: 0 0 10px;
+}
+.brand {
+    color: #555;
+    margin-bottom: 10px;
+}
+.price {
+    font-size: 24px;
+    color: green;
+    margin-bottom: 10px;
+}
+.discount {
+    color: red;
+    margin-left: 10px;
+    font-size: 16px;
+    background-color: #f0f0f1;
+    padding: 8px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.stock {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.description {
+    margin-top: 20px;
+    line-height: 1.6;
+}
+.rating {
+    margin: 10px 0;
+    color: #ff9800;
+    font-weight: bold;
+}
+.reviews {
+    margin-top: 40px;
+}
+.reviews h3 {
+    margin-bottom: 10px;
+}
+.review-item {
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+}
+.review-item:last-child {
+    border-bottom: 1px solid #ddd;
+}
+.reviewer {
+    font-weight: bold;
+}
+.review-rating {
+    color: #ff9800;
+}
+.product-cta {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+.cta-btn {
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial,
+        sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+.cta-btn:hover,
+.cta-btn:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.cta-btn:hover {
+    transform: translateY(-1px);
+}
+
+.cta-btn:active {
+    background-color: #f0f0f1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
